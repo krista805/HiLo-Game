@@ -1,0 +1,46 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href="styles.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.js"></script>
+<script src="jquery.js"></script>
+<title>Hi Lo Game</title>
+
+</head>
+
+<body>
+<!--home page-->
+  <div class="coverPage container-fluid">
+      <div class="title">
+          <h1>Guess the right number! - Play the Hi Lo Game!</h1>
+          <button type="button" class="btn btn-primary playBtn">Play
+      </div>
+  </div>
+
+
+<!--game screen-->
+  <div class="row well game">
+      <h2 class="col-md-12">Guess or Bust! </h2>
+      <h4 class="col-md-6 col-md-offset-3">A random number has been selected between 1 and 100. Can you guess it in 7 attempts?</h4>
+      <h3 class="col-md-6 col-md-offset-3">Good luck!</h3>
+      <div class="col-md-12 txtBtn">
+          <input type="number" class="input-sm txtBox" id="txtBox" placeholder="Enter number" autofocus>
+          <button type="button" id="guessBtn" class="btn btn-success guessBtn">Submit Guess</button>
+      </div>
+  </div>
+
+<!--response screen-->
+    <div class="row response">
+        <div class="col-md-12">
+                <h3 class="responseHeader"></h3>
+                <h3 class="responseHeader2  "></h3>
+                <button type="button" class="btn btn-danger tryAgainBtn">Try Again</button>
+        </div>
+    </div>
+
+</body>
+</html>
