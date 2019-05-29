@@ -2,7 +2,7 @@
   background-image: url("././images/numbers.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: scroll;
+  overflow: hidden;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -12,18 +12,20 @@
   position: relative;
   background-color: grey;
   top: 5%;
-  padding-top: 5%;
-  left: 5%;
+  padding: 5% 0;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
   text-align: center;
-  border-radius: 45%
-
 }
 
 .playBtn {
   margin-top: 5%;
-  width: 30%;
   font-weight: 600;
   font-size: 2.5vh;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .guessBtn {
